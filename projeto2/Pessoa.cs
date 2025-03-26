@@ -8,10 +8,14 @@ namespace projeto2
 {
     internal class Pessoa
     {
-        public double altura;
-        public double peso;
-        public string etinia;
         public string nome;
-        public string idade;
+        public int idade;
+        public string email;
+        public string cpf;
+
+        public void mostraNome()
+        {
+            Console.WriteLine("\nNome:{0}", nome);
+        }
     }
 }
